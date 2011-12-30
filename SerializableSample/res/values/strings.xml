@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SerializableSampleActivity!</string>
+    <string name="app_name">シリアライズの実証アプリ</string>
+    <string name="label_serialize_button">シリアライズ</string>
+    <string name="label_deserialize_button">デシリアライズ</string>
+    <string name="label_add_element_button">要素追加</string>
+    <string name="label_del_element_button">要素削除</string>
+    <string name="label_view_status_button">状態表示</string>
+    <string name="label_del_instance_button">インスタンス削除</string>
+    <string name="label_new_instance_button">インスタンス作成</string>
+    <string name="menu1">CopyOnWriteArrayList版</string>
+    <string name="menu2">中のObject[]だけをシリアライズ版</string>
+
+</resources>
