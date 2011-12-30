@@ -51,10 +51,11 @@ public abstract class AbstractSerializeActivity extends Activity implements OnCl
 			btn.setOnClickListener(this);
 		}
 	}
-
+	
 	@Override
-	protected void onRestart() {
-		super.onRestart();
+	protected void onResume() {
+		super.onResume();
+		//Viewを使いまわしてるのでリスナーの再設定
 		initButton();
 	}
 	
